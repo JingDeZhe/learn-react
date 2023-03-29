@@ -15,6 +15,7 @@ specifiers:
   react-dom: ^18.2.0
   react-redux: ^8.0.5
   react-router-dom: ^6.9.0
+  typed.js: ^2.0.14
   vite: ^4.2.0
 
 dependencies:
@@ -28,6 +29,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-redux: 8.0.5_l7jektmlbfkfzseoswiw3ervwq
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
+  typed.js: 2.0.14
 
 devDependencies:
   '@types/react': 18.0.30
@@ -2107,6 +2109,10 @@ packages:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
     dev: true
+
+  /typed.js/2.0.14:
+    resolution: {integrity: sha512-tAgtrZDaz8CZ9dTuon9uglFLlNDVz94IF5yYOVtuTTjIjkZI5gg5BJi6JxE9uAmmoc7wY7w6XI59sjgsR8yA9g==}
+    dev: false
 
   /update-browserslist-db/1.0.10_browserslist@4.21.5:
     resolution: {integrity: sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==}
