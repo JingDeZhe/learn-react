@@ -5,7 +5,7 @@ export const zIndex1 = 10
 export const demoWrapper = css({})
 
 export const roundedCss = css({
-  borderRadius: '0.2em',
+  borderRadius: '0.3em',
 })
 
 export const shadowCss = css({
@@ -37,4 +37,9 @@ export const boxCss = css([
 export const themeDarkCss = css({
   backgroundColor: '#303030',
   color: '#efefef',
+})
+
+export const themeLightCss = css({
+  backgroundColor: '#ffffff',
+  color: '#303030',
 })

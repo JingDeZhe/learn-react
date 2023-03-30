@@ -5,14 +5,14 @@ import Typed from 'typed.js'
 
 const TypedBox = (props) => {
   const box = useRef(null)
-  const { texts = [''], speed = 50, ...rest } = props
+  const { texts = [''], speed = 50, onComplete, ...rest } = props
 
   const Wrapper = styled.div([
     shadowCss,
     boxCss,
     themeDarkCss,
     {
-      width: '30em',
+      width: '50%',
     },
   ])
 
@@ -20,6 +20,7 @@ const TypedBox = (props) => {
     const ins = new Typed(box.current, {
       strings: texts,
       typeSpeed: speed,
+      ...(onComplete ? { onComplete } : null),
     })
 
     return () => ins.destroy()
